@@ -33,7 +33,7 @@ for(const p of m.pages){const original=await fs.readFile(`evidence/source/${p.ke
    originalSections.forEach((el,i)=>{
      const scene=$('<div class="blu-scene blu-scene-'+(names[i]||'extra')+'"></div>');
      if(i===0||i===3||i===5)scene.append('<div class="blu-scene-art" aria-hidden="true"></div>');
-     scene.append($(el).detach());
+     scene.append($(el).remove());
      layout.append(scene);
    });
    $('#main .elementor-3292').append(layout);
