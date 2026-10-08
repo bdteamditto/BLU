@@ -1,5 +1,5 @@
 node_modules/
 dist/
-home.html
+/home.html
 evidence/screenshots/
 .DS_Store
