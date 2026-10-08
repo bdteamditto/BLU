@@ -24,7 +24,7 @@ jobs:
       - run: |
           pnpm preview > /tmp/blu-v4-preview.log 2>&1 &
           sleep 5
-          pnpm test:browser
+          node scripts/v4-home-check.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
