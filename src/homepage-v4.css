@@ -135,3 +135,5 @@ body.blu-homepage-v4{--night:#171C8F;--electric:#097EF6;--mint:#00FFAC;--cloud:#
 .blu-homepage-v4 .v4-opening .v4-block:nth-child(n+7){grid-column:span 6;order:4}
 .blu-homepage-v4 .v4-opening .v4-block:nth-child(n+7) :is(p,h1,h2,h3,h4,h5,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:15px!important;line-height:1.75!important;font-weight:400!important}
 @media(max-width:900px){.blu-homepage-v4 .v4-opening{padding:70px 25px}.blu-homepage-v4 .v4-opening .v4-block:nth-child(n){grid-column:1/-1}.blu-homepage-v4 .v4-opening .v4-block:nth-child(5){padding:19px!important}.blu-homepage-v4 .v4-opening .v4-block:nth-child(3){padding:18px!important}}
+
+@media(min-width:980px){.blu-homepage-v4 .v4-opening .v4-block:nth-child(2) :is(h1,h2,h3,h4,.wdt-heading-title-wrapper,.elementor-heading-title){white-space:nowrap!important;font-size:clamp(52px,5vw,74px)!important}}
