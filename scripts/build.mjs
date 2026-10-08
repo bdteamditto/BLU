@@ -39,7 +39,13 @@ for(const p of m.pages){const original=await fs.readFile(`evidence/source/${p.ke
        // Ignore nesting only when a parent widget itself is selected: rare nested Elementor widgets.
        if($(widget).parents('.elementor-widget').length)return;
        const block=$('<div class="v4-block v4-block-'+index+'"></div>');
-       block.append($(widget).remove());
+       const originalWidget=$(widget);
+       const core=originalWidget.find('.elementor-widget-container').first();
+       // Remove Elementor's fixed-width wrapper, not its actual content.
+       // Retain the authentic content nodes, text, links and images unchanged.
+       if(core.length) block.append(core.contents());
+       else block.append(originalWidget.contents());
+       originalWidget.remove();
        content.append(block);
      });
      // Preserve any otherwise orphaned material by retaining source subtree, visually neutral.
