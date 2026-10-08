@@ -23,22 +23,32 @@ for(const p of m.pages){const original=await fs.readFile(`evidence/source/${p.ke
  if(src.includes('850c215a17fff2d1'))$(el).before('<script>window.$=window.jQuery;</script>');});
  $('#header img').filter((_,el)=>/Blu-Green-Token_Logo|Logo-Bul/.test($(el).attr('src')||'')||/c421d15d|aac7cc37/.test($(el).attr('src')||'')).attr('src',base+'brand/logo.svg').removeAttr('srcset');
  $('#header img').addClass('blu-brand-mark').attr('src',base+'brand/logo.svg').removeAttr('srcset');
- // Recompose original homepage section nodes into a completely new editorial scene grid.
- // Move existing DOM nodes rather than copying/editing content; text, anchor targets,
- // warnings, image-embedded content and the original content order remain untouched.
+ // VISUAL V4 — completely new layout tree, no Elementor section/column wrappers.
+ // Every original content widget DOM node is MOVED, never rewritten or cloned.
  if(p.path==='/'||p.path==='/en/main-en/'){
-   const originalSections=$('#main .elementor-3292 > section.elementor-top-section').toArray();
+   const sections=$('#main .elementor-3292 > section.elementor-top-section').toArray();
    const names=['opening','introduction','figures','purpose','purpose-alternate','businesses','journal'];
-   const layout=$('<div class="blu-homepage-layout" data-visual-rebuild="true"></div>');
-   originalSections.forEach((el,i)=>{
-     const scene=$('<div class="blu-scene blu-scene-'+(names[i]||'extra')+'"></div>');
-     if(i===0||i===3||i===5)scene.append('<div class="blu-scene-art" aria-hidden="true"></div>');
-     scene.append($(el).remove());
+   const layout=$('<div class="blu-home-v4" data-visual-rebuild="from-source-widgets"></div>');
+   sections.forEach((section,i)=>{
+     const scene=$('<section class="v4-scene v4-'+(names[i]||'extra')+'"></section>');
+     const art=$('<div class="v4-scene-art" aria-hidden="true"></div>');
+     const content=$('<div class="v4-content"></div>');
+     // The widgets' HTML and exact text are owned by the captured source.
+     const widgets=$(section).find('.elementor-widget').toArray();
+     widgets.forEach((widget,index)=>{
+       // Ignore nesting only when a parent widget itself is selected: rare nested Elementor widgets.
+       if($(widget).parents('.elementor-widget').length)return;
+       const block=$('<div class="v4-block v4-block-'+index+'"></div>');
+       block.append($(widget).remove());
+       content.append(block);
+     });
+     // Preserve any otherwise orphaned material by retaining source subtree, visually neutral.
+     scene.append(art).append(content).append($(section).remove());
      layout.append(scene);
    });
    $('#main .elementor-3292').append(layout);
-   $('body').addClass('blu-homepage-v3');
-   $('head').append('<link rel="stylesheet" href="'+base+'src/homepage.css">');
+   $('body').addClass('blu-homepage-v4');
+   $('head').append('<link rel="stylesheet" href="'+base+'src/homepage-v4.css">');
  }
  $('#main').attr('tabindex','-1');
  if(p.path==='/'||p.path==='/en/main-en/')$('#main').before('<div id="blu-intro-root" aria-hidden="true"></div>');
