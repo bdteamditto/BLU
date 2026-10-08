@@ -80,3 +80,10 @@ body.blu-homepage-v4{--night:#171C8F;--electric:#097EF6;--mint:#00FFAC;--cloud:#
 @media(max-width:980px){.v4-scene{padding:80px 5vw}.v4-opening{min-height:680px}.v4-opening .v4-block:nth-child(n){grid-column:1/-1}.v4-introduction .v4-block:nth-child(n){grid-column:1/-1}.v4-figures .v4-block:nth-child(n+2){grid-column:span 6}.v4-businesses .v4-block:nth-child(n+3){grid-column:span 6}}
 @media(max-width:600px){.v4-scene{padding:66px 22px}.v4-opening{min-height:0}.v4-opening .v4-scene-art{background-position:70% center;opacity:.55}.v4-figures .v4-content{padding:22px;border-radius:25px}.v4-scene .v4-content{gap:20px}.v4-scene .v4-block:nth-child(n){grid-column:1/-1}.v4-figures #wdt-image-box-778559f .wdt-column-wrapper{grid-template-columns:1fr!important}.v4-purpose .v4-block:nth-child(n+2){grid-column:1/-1}.v4-opening:before{font-size:68vw;right:0;bottom:7%}.v4-journal .v4-block img{aspect-ratio:1.3}}
 @media(prefers-reduced-motion:reduce){.v4-scene *{animation:none!important;transition:none!important}}
+
+
+/* Illustrated mangrove coastline underneath existing separately animated fiddler crabs. */
+.blu-homepage-v4 #footer .blu-ecosystem{background:#daf3ed url("../brand/mangrove-landscape-v4.svg") center bottom/cover no-repeat!important;height:clamp(310px,32vw,440px);overflow:hidden}
+.blu-homepage-v4 #footer .blu-ecosystem svg{position:absolute;bottom:-15px;left:0;height:80%;width:100%;filter:drop-shadow(0 9px 9px rgba(38,87,89,.08))}
+.blu-homepage-v4 #footer .blu-ecosystem .blu-crab{animation-duration:26s}
+.blu-homepage-v4 #footer .blu-ecosystem .blu-claw{animation-duration:5.7s}
