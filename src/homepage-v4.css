@@ -1,0 +1,213 @@
+/* V4 CUSTOM VISUAL SYSTEM: completely detached editorial DOM grid.
+   Original issuer copy, figures, links and document data are NOT authored here. */
+body.blu-homepage-v4{--night:#171C8F;--electric:#097EF6;--mint:#00FFAC;--cloud:#F0F6F7;--ink:#172461;font-family:Kanit,sans-serif;background:#f0f6f7}
+.blu-homepage-v4 #main{padding:0!important;background:#f0f6f7!important}
+.blu-homepage-v4 #main>.container{padding:0!important;max-width:none!important;width:100%!important}
+.blu-homepage-v4 #main .wdt-elementor-container-fluid,.blu-homepage-v4 #main .elementor-3292{width:100%!important;max-width:none!important;margin:0!important;padding:0!important}
+.blu-home-v4{display:flex;flex-direction:column;overflow:hidden}
+.v4-scene{position:relative;isolation:isolate;padding:clamp(75px,9vw,150px) max(6vw,calc((100vw - 1390px)/2));overflow:hidden;min-width:0}
+.v4-scene>.elementor-top-section{display:contents!important;background:none!important}
+.v4-scene>.v4-content{position:relative;z-index:3;max-width:1380px;margin:0 auto;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(14px,2vw,32px);row-gap:clamp(18px,2.2vw,35px);align-items:start}
+.v4-scene .v4-block{grid-column:span 12;min-width:0;position:relative}
+.v4-scene .v4-block>.elementor-widget{margin:0!important;max-width:none!important;width:100%!important;padding:0!important;min-width:0!important}
+.v4-scene .v4-block>.elementor-widget>.elementor-widget-container{margin:0!important;padding:0!important;max-width:none!important}
+.v4-scene h1,.v4-scene h2,.v4-scene h3,.v4-scene h4,.v4-scene h5{font-family:Kanit,sans-serif!important;line-height:1.22!important;letter-spacing:-.028em!important;color:var(--night)!important}
+.v4-scene p,.v4-scene li{font-family:Kanit,sans-serif!important;line-height:1.86!important;font-size:clamp(15px,1.15vw,18px)!important;color:#324565!important}
+.v4-scene .elementor-heading-title,.v4-scene .wdt-heading-title-wrapper{color:var(--night)!important;line-height:1.23!important}
+.v4-scene a.elementor-button,.v4-scene .wdt-button-holder a{border-radius:999px!important;background:var(--night)!important;padding:15px 27px!important;color:white!important}
+.v4-scene-art{position:absolute;inset:0;z-index:-1;pointer-events:none}
+/* Opening: generously spaced cinematic landscape with magazine typography */
+.v4-opening{min-height:850px;display:flex;align-items:center;background:linear-gradient(100deg,#e7f5fb 0%,#e5f8f4 50%,#d6f0e7 100%);padding-top:115px;padding-bottom:130px}
+.v4-opening .v4-scene-art{background:linear-gradient(90deg,#eefafd 3%,#e9f8f8ec 35%,#e3f5f8aa 62%,#e0f5ec55 100%),url("../assets/67679a726f66a29c.jpg") center right/cover no-repeat;opacity:.86}
+.v4-opening:before{content:"BLU";position:absolute;right:-.025em;bottom:-.26em;font-weight:700;font-size:clamp(280px,38vw,610px);letter-spacing:-.1em;line-height:1;color:#171c8f0d;pointer-events:none}
+.v4-opening .v4-content{width:100%;align-items:center}
+.v4-opening .v4-block:nth-child(1){grid-column:1/-1;max-width:650px}
+.v4-opening .v4-block:nth-child(2){grid-column:1/8}
+.v4-opening .v4-block:nth-child(3){grid-column:1/9;background:#ffffffe8;border:1px solid #d9eef1;border-radius:26px;padding:clamp(22px,3vw,38px);box-shadow:0 19px 45px rgba(32,107,141,.08)}
+.v4-opening .v4-block:nth-child(4){grid-column:1/7}
+.v4-opening .v4-block:nth-child(5){grid-column:1/9}
+.v4-opening .v4-block:nth-child(n+6){grid-column:span 6}
+.v4-opening .v4-block:nth-child(1) :is(h1,h2,.elementor-heading-title){font-size:clamp(44px,5.4vw,80px)!important;font-weight:600!important;line-height:1.08!important}
+.v4-opening .v4-block:nth-child(2) :is(h1,h2,.elementor-heading-title){font-size:clamp(28px,3vw,44px)!important}
+.v4-opening .v4-block:nth-child(3) :is(h1,h2,h3,.elementor-heading-title){font-size:clamp(14px,1.2vw,18px)!important;line-height:1.85!important;font-weight:400!important}
+.v4-opening .v4-block:nth-child(4) :is(h1,h2,h3,.elementor-heading-title){font-size:clamp(14px,1.15vw,17px)!important;line-height:1.82!important;font-weight:400!important}
+/* Nature declaration: asymmetric page with source content and editorial image */
+.v4-introduction{background:#fff;min-height:620px}
+.v4-introduction:before{content:"";position:absolute;right:-8%;top:12%;width:51%;height:76%;border-radius:52% 46% 44% 58%;background:linear-gradient(135deg,rgba(0,255,172,.12),rgba(9,126,246,.07));transform:rotate(-10deg)}
+.v4-introduction .v4-content{align-items:center}
+.v4-introduction .v4-block:nth-child(1){grid-column:1/8}
+.v4-introduction .v4-block:nth-child(1) :is(h1,h2,.wdt-heading-title-wrapper){font-size:clamp(38px,4.3vw,64px)!important;line-height:1.23!important}
+.v4-introduction .v4-block:nth-child(2){grid-column:1/7}
+.v4-introduction .v4-block:nth-child(n+3){grid-column:7/-1}
+.v4-introduction .v4-block:has(img){border-radius:42% 42% 14% 14%;overflow:hidden;box-shadow:0 25px 55px #171c8f13}
+/* Values: museum-like financial data panel with authentic original text */
+.v4-figures{background:linear-gradient(160deg,#d7f0f7 0%,#eff9fb 60%,#e2f3ed 100%);padding-block:140px}
+.v4-figures .v4-content{padding:clamp(30px,4vw,64px);border:1px solid #deedf0;background:rgba(255,255,255,.88);border-radius:38px;box-shadow:0 35px 100px rgba(34,102,148,.10);backdrop-filter:blur(6px)}
+.v4-figures .v4-block:first-child{grid-column:1/-1}
+.v4-figures .v4-block:first-child :is(h1,h2,h3,.wdt-heading-title-wrapper){font-size:clamp(34px,3vw,50px)!important}
+.v4-figures .v4-block:nth-child(n+2){grid-column:span 4;align-self:stretch;padding:24px;border:1px solid #e4eef1;border-radius:22px;background:white}
+.v4-figures .v4-block:nth-child(n+2):nth-child(4n){background:#eef9f6}
+.v4-figures .v4-block:nth-child(n+2) :is(h2,h3,h4,h5){font-size:clamp(25px,2.6vw,40px)!important}
+.v4-figures .v4-block:nth-child(n+2) :is(img){width:75px!important;height:75px!important;object-fit:contain}
+.v4-figures #wdt-image-box-778559f .wdt-column-wrapper{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important}
+.v4-figures #wdt-image-box-778559f .wdt-column{width:100%!important;padding:0!important}
+.v4-figures #wdt-image-box-778559f .wdt-content-item{height:100%;background:#fff!important;border-radius:22px!important;box-shadow:none!important;padding:24px!important}
+/* Long reading passage: open typographic design — no fake claims */
+.v4-purpose{background:#fff;padding-block:150px}
+.v4-purpose .v4-scene-art{background:radial-gradient(ellipse at 98% 12%,#bceedd75,transparent 42%),repeating-radial-gradient(ellipse at 100% 40%,transparent 0 47px,#83cdbb23 48px 49px,transparent 50px 76px)}
+.v4-purpose .v4-block:nth-child(1){grid-column:1/-1}
+.v4-purpose .v4-block:nth-child(1) :is(h1,h2,h3,.wdt-heading-title-wrapper){font-size:clamp(40px,4vw,64px)!important}
+.v4-purpose .v4-block:nth-child(n+2){grid-column:2/12;max-width:1050px}
+.v4-purpose .v4-block:nth-child(n+2) p{font-size:clamp(16px,1.35vw,20px)!important;line-height:2.05!important}
+.v4-purpose-alternate{background:linear-gradient(#eff9f7,#f8fcfd);padding-block:80px}
+.v4-purpose-alternate .v4-block:nth-child(1){grid-column:1/-1}
+.v4-purpose-alternate .v4-block:nth-child(n+2){grid-column:span 6}
+/* Business module: lively editorial staggered showcase */
+.v4-businesses{background:linear-gradient(180deg,#eff9fc,#fff);padding-block:145px}
+.v4-businesses .v4-block:nth-child(1){grid-column:1/-1}
+.v4-businesses .v4-block:nth-child(2){grid-column:1/10}
+.v4-businesses .v4-block:nth-child(n+3){grid-column:span 4}
+.v4-businesses .v4-block:has(.wdt-content-item){background:white;border:1px solid #e0e9ee;border-radius:28px;padding:22px;box-shadow:0 16px 38px rgba(23,28,143,.06)}
+.v4-businesses .v4-block img{border-radius:20px!important;max-height:290px;object-fit:cover}
+.v4-businesses .v4-block:nth-child(1) :is(h1,h2,.wdt-heading-title-wrapper){font-size:clamp(34px,3.6vw,58px)!important}
+/* Articles: irregular editorial cards, not the original WP grid */
+.v4-journal{background:#fff;padding-block:110px 160px}
+.v4-journal .v4-block:nth-child(1){grid-column:1/-1}
+.v4-journal .v4-block:nth-child(1) :is(h1,h2,.wdt-heading-title-wrapper){font-size:clamp(36px,4vw,60px)!important}
+.v4-journal .v4-block:nth-child(n+2){grid-column:span 6}
+.v4-journal .v4-block :is(.wdt-post-entry,.wdt-content-item){background:white;border-radius:26px;overflow:hidden;box-shadow:0 20px 54px rgba(23,28,143,.09)}
+.v4-journal .v4-block img{width:100%;object-fit:cover;aspect-ratio:1.6}
+@media(max-width:980px){.v4-scene{padding:80px 5vw}.v4-opening{min-height:680px}.v4-opening .v4-block:nth-child(n){grid-column:1/-1}.v4-introduction .v4-block:nth-child(n){grid-column:1/-1}.v4-figures .v4-block:nth-child(n+2){grid-column:span 6}.v4-businesses .v4-block:nth-child(n+3){grid-column:span 6}}
+@media(max-width:600px){.v4-scene{padding:66px 22px}.v4-opening{min-height:0}.v4-opening .v4-scene-art{background-position:70% center;opacity:.55}.v4-figures .v4-content{padding:22px;border-radius:25px}.v4-scene .v4-content{gap:20px}.v4-scene .v4-block:nth-child(n){grid-column:1/-1}.v4-figures #wdt-image-box-778559f .wdt-column-wrapper{grid-template-columns:1fr!important}.v4-purpose .v4-block:nth-child(n+2){grid-column:1/-1}.v4-opening:before{font-size:68vw;right:0;bottom:7%}.v4-journal .v4-block img{aspect-ratio:1.3}}
+@media(prefers-reduced-motion:reduce){.v4-scene *{animation:none!important;transition:none!important}}
+
+
+/* Illustrated mangrove coastline underneath existing separately animated fiddler crabs. */
+.blu-homepage-v4 #footer .blu-ecosystem{background:#daf3ed url("../brand/mangrove-landscape-v4.svg") center bottom/cover no-repeat!important;height:clamp(310px,32vw,440px);overflow:hidden}
+.blu-homepage-v4 #footer .blu-ecosystem svg{position:absolute;bottom:-15px;left:0;height:80%;width:100%;filter:drop-shadow(0 9px 9px rgba(38,87,89,.08))}
+.blu-homepage-v4 #footer .blu-ecosystem .blu-crab{animation-duration:26s}
+.blu-homepage-v4 #footer .blu-ecosystem .blu-claw{animation-duration:5.7s}
+
+
+/* Unwrapped source DOM: remove inherited Elementor widths and restore deliberate editorial measure */
+.blu-homepage-v4 .v4-block,
+.blu-homepage-v4 .v4-block>:is(div,section,header,article),
+.blu-homepage-v4 .v4-block .wdt-heading-holder,
+.blu-homepage-v4 .v4-block .wdt-heading-title-wrapper,
+.blu-homepage-v4 .v4-block .wdt-content-detail-group,
+.blu-homepage-v4 .v4-block .wdt-heading-title,
+.blu-homepage-v4 .v4-block .elementor-heading-title {
+  max-width:100%!important;width:100%!important;min-width:0!important;
+  margin-inline:0!important;--container-widget-width:100%!important
+}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(1){grid-column:1/9;max-width:860px!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(2){grid-column:1/9}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(3){grid-column:1/8;max-width:710px!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(4){grid-column:1/9}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(5){grid-column:1/9}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(1) :is(h1,h2,.elementor-heading-title,.wdt-heading-title-wrapper){font-size:clamp(51px,6.5vw,90px)!important;line-height:1.08!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(2) :is(h1,h2,h3,.elementor-heading-title,.wdt-heading-title-wrapper){font-size:clamp(26px,3vw,43px)!important;line-height:1.4!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(3) :is(p,h1,h2,h3,.elementor-heading-title,.wdt-heading-title-wrapper){font-size:clamp(14px,1.1vw,16px)!important;line-height:1.75!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(4) p{font-size:15px!important;line-height:1.8!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(n+5) p{font-size:15px!important}
+@media(max-width:900px){.blu-homepage-v4 .v4-opening .v4-block:nth-child(n){grid-column:1/-1;max-width:none!important}}
+
+
+/* Verified source widget order: 1 social links, 2 title, 3 descriptor,
+   4 project introduction, 5 regulatory investment notice, 6 classification.
+   Respect every source string while restoring a professional hierarchy. */
+.blu-homepage-v4 .v4-opening{min-height:860px;padding:130px 6vw 110px}
+.blu-homepage-v4 .v4-opening .v4-scene-art{opacity:1;background:linear-gradient(90deg,#f3fcfdf9 0%,#e7f9f9ec 30%,#eafafa77 58%,transparent 86%),url("../assets/67679a726f66a29c.jpg") center/cover no-repeat}
+.blu-homepage-v4 .v4-opening .v4-content{align-items:start;row-gap:22px}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(1){grid-column:1/-1;max-width:100%!important;min-height:24px;order:6}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(1) ul{display:flex!important;flex-direction:row!important;gap:12px;list-style:none!important;padding:0!important;margin:0!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(1) li{display:inline-flex!important;font-size:13px!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(2){grid-column:1/9;order:0}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(2) :is(h1,h2,h3,h4,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:clamp(50px,5.8vw,82px)!important;font-weight:600!important;line-height:1.1!important;letter-spacing:-.045em!important;max-width:840px!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(3){grid-column:1/9;order:1;background:rgba(255,255,255,.68)!important;border:1px solid rgba(255,255,255,.9);padding:25px 30px!important;border-radius:24px;box-shadow:0 16px 32px #171c8f0c;max-width:670px!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(3) :is(p,h1,h2,h3,h4,h5,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:clamp(20px,2vw,29px)!important;line-height:1.5!important;font-weight:500!important;letter-spacing:-.02em!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(4){grid-column:1/9;order:2;max-width:820px!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(4) :is(p,h1,h2,h3,h4,h5,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:clamp(15px,1.25vw,17px)!important;line-height:1.75!important;font-weight:400!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(5){grid-column:1/-1;order:5;max-width:1240px!important;padding:26px 30px!important;border:1px solid #cfebea;border-left:4px solid #097ef6;border-radius:18px;background:rgba(255,255,255,.91);box-shadow:0 15px 35px #171c8f0b}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(5) :is(*,p,h1,h2,h3,h4,h5,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:14px!important;line-height:1.8!important;font-weight:400!important;letter-spacing:0!important;color:#304569!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(6){grid-column:1/9;order:3}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(6) :is(p,h1,h2,h3,h4,h5,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:16px!important;line-height:1.8!important;font-weight:400!important}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(n+7){grid-column:span 6;order:4}
+.blu-homepage-v4 .v4-opening .v4-block:nth-child(n+7) :is(p,h1,h2,h3,h4,h5,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:15px!important;line-height:1.75!important;font-weight:400!important}
+@media(max-width:900px){.blu-homepage-v4 .v4-opening{padding:70px 25px}.blu-homepage-v4 .v4-opening .v4-block:nth-child(n){grid-column:1/-1}.blu-homepage-v4 .v4-opening .v4-block:nth-child(5){padding:19px!important}.blu-homepage-v4 .v4-opening .v4-block:nth-child(3){padding:18px!important}}
+
+@media(min-width:980px){.blu-homepage-v4 .v4-opening .v4-block:nth-child(2) :is(h1,h2,h3,h4,.wdt-heading-title-wrapper,.elementor-heading-title){white-space:nowrap!important;font-size:clamp(52px,5vw,74px)!important}}
+
+
+/* QA correction: group widgets hold entire collections; they need full-width slots. */
+.blu-homepage-v4 .v4-figures .v4-block:nth-child(1){grid-column:1/6;grid-row:1 / span 2;align-self:stretch;padding:0!important;background:transparent!important;border:0!important;min-height:360px}
+.blu-homepage-v4 .v4-figures .v4-block:nth-child(1) :is(img,video){height:100%;width:100%;object-fit:cover;border-radius:25px}
+.blu-homepage-v4 .v4-figures .v4-block:nth-child(2){grid-column:6/-1;grid-row:1;align-self:end;padding:0!important;background:transparent!important;border:0!important}
+.blu-homepage-v4 .v4-figures .v4-block:nth-child(3){grid-column:6/-1;grid-row:2;padding:0!important;border:0!important;background:transparent!important}
+.blu-homepage-v4 .v4-figures .v4-block:nth-child(n+4){grid-column:span 6}
+.blu-homepage-v4 .v4-figures #wdt-image-box-778559f .wdt-column-wrapper{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:12px!important;width:100%!important}
+.blu-homepage-v4 .v4-figures #wdt-image-box-778559f .wdt-column{min-width:0!important;width:100%!important}
+.blu-homepage-v4 .v4-figures #wdt-image-box-778559f .wdt-content-item{padding:15px!important;min-width:0!important}
+.blu-homepage-v4 .v4-figures #wdt-image-box-778559f :is(h1,h2,h3,h4,h5,p){overflow-wrap:break-word!important;word-break:normal!important;font-size:clamp(12px,1vw,15px)!important}
+.blu-homepage-v4 .v4-figures #wdt-image-box-778559f .wdt-content-title :is(h1,h2,h3,h4,h5){font-size:clamp(17px,1.5vw,22px)!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2){grid-column:1/-1;width:100%!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(n+3){grid-column:span 6}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) :is(.wdt-column-wrapper,.wdt-carousel-holder){width:100%!important;max-width:none!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:20px!important;align-items:stretch!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) :is(.wdt-column,.wdt-content-item,.wdt-content-media-group,.wdt-content-detail-group){width:100%!important;min-width:0!important;max-width:none!important;float:none!important;position:relative!important;left:auto!important;top:auto!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) :is(.wdt-content-item,.wdt-content-title,.wdt-content-title *,img){transform:none!important;rotate:0deg!important;writing-mode:horizontal-tb!important;text-orientation:mixed!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) .wdt-content-title{height:auto!important;min-height:0!important;padding:15px!important;display:block!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) .wdt-content-item{min-height:350px!important;display:flex!important;flex-direction:column!important;justify-content:flex-start!important;background:#fff!important;border:1px solid #dbe9ec!important;border-radius:22px!important;overflow:hidden!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) :is(img){max-height:220px!important;width:100%!important;object-fit:cover!important}
+.blu-homepage-v4 .v4-journal .v4-block:nth-child(n+2){grid-column:1/-1}
+.blu-homepage-v4 .v4-journal .v4-block:nth-child(2) :is(.wdt-column-wrapper,.wdt-posts-list-wrapper){display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;width:100%!important;gap:24px!important}
+.blu-homepage-v4 .v4-journal .v4-block:nth-child(2) :is(.wdt-column,.wdt-post-entry){width:100%!important;min-width:0!important;max-width:none!important}
+.blu-homepage-v4 .v4-purpose .v4-block:nth-child(1){grid-column:1/6;grid-row:1/span 8;position:sticky;top:120px}
+.blu-homepage-v4 .v4-purpose .v4-block:nth-child(n+2){grid-column:6/-1;max-width:none}
+.blu-homepage-v4 .v4-purpose .v4-block:nth-child(n+2) :is(p){font-size:clamp(16px,1.22vw,19px)!important;line-height:1.95!important}
+.blu-homepage-v4 .v4-purpose .v4-block:nth-child(1) img{width:100%!important;height:560px!important;object-fit:cover!important;border-radius:30px!important}
+@media(max-width:1000px){
+.blu-homepage-v4 .v4-figures .v4-block:nth-child(n),.blu-homepage-v4 .v4-purpose .v4-block:nth-child(n){grid-column:1/-1;grid-row:auto;position:static}
+.blu-homepage-v4 .v4-figures #wdt-image-box-778559f .wdt-column-wrapper{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) :is(.wdt-column-wrapper,.wdt-carousel-holder){grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.blu-homepage-v4 .v4-journal .v4-block:nth-child(2) :is(.wdt-column-wrapper,.wdt-posts-list-wrapper){grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media(max-width:600px){
+.blu-homepage-v4 .v4-figures #wdt-image-box-778559f .wdt-column-wrapper,
+.blu-homepage-v4 .v4-businesses .v4-block:nth-child(2) :is(.wdt-column-wrapper,.wdt-carousel-holder),
+.blu-homepage-v4 .v4-journal .v4-block:nth-child(2) :is(.wdt-column-wrapper,.wdt-posts-list-wrapper){grid-template-columns:1fr!important}
+.blu-homepage-v4 .v4-purpose .v4-block:nth-child(1) img{height:300px!important}
+}
+
+
+/* Restore static grid presentation for original theme's animated banners and isotope posts. */
+.blu-homepage-v4 .v4-figures .v4-block:has(#wdt-image-box-778559f){grid-column:1/-1!important;grid-row:auto!important}
+.blu-homepage-v4 .v4-figures .v4-block:first-child:empty{background:radial-gradient(circle,#e6f8f8 0%,#cbe9eb 100%)!important}
+.blu-homepage-v4 .v4-figures .v4-block:first-child{background-image:url("../brand/token.png")!important;background-repeat:no-repeat!important;background-position:center!important;background-size:min(75%,360px) auto!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-options{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:20px!important;height:auto!important;width:100%!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option{display:flex!important;flex-direction:column!important;justify-content:end!important;position:relative!important;width:100%!important;min-width:0!important;max-width:none!important;flex:none!important;min-height:360px!important;height:auto!important;overflow:hidden!important;border-radius:25px!important;background:#d9eae8 var(--optionBackground) center/cover no-repeat!important;transform:none!important;writing-mode:horizontal-tb!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-shadow{position:absolute!important;inset:0!important;display:block!important;background:linear-gradient(180deg,transparent 20%,rgba(13,41,68,.82) 100%)!important;opacity:1!important;transform:none!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-label{position:relative!important;inset:auto!important;min-width:0!important;width:100%!important;max-width:none!important;display:block!important;transform:none!important;writing-mode:horizontal-tb!important;padding:26px!important;background:none!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-title,.blu-homepage-v4 .v4-businesses .wdt-flex-banner-title *{display:block!important;position:static!important;width:auto!important;height:auto!important;color:white!important;font-size:clamp(17px,1.5vw,23px)!important;line-height:1.4!important;transform:none!important;writing-mode:horizontal-tb!important;white-space:normal!important;text-orientation:mixed!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-info,.blu-homepage-v4 .v4-businesses .wdt-flex-banner-content{display:block!important;position:static!important;opacity:1!important;visibility:visible!important;max-height:none!important;transform:none!important;width:100%!important;height:auto!important;writing-mode:horizontal-tb!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-content p{font-size:13px!important;color:#f0f8fa!important;line-height:1.65!important;margin:10px 0 0!important}
+.blu-homepage-v4 .v4-journal .tpl-blog-holder.apply-isotope{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important;height:auto!important;position:relative!important}
+.blu-homepage-v4 .v4-journal .tpl-blog-holder .grid-sizer{display:none!important}
+.blu-homepage-v4 .v4-journal .tpl-blog-holder .wdt-post-entry{position:static!important;top:auto!important;left:auto!important;transform:none!important;margin:0!important;float:none!important;display:block!important;width:100%!important;max-width:none!important;min-width:0!important;height:auto!important}
+.blu-homepage-v4 .v4-journal .tpl-blog-holder .wdt-post-entry img{width:100%!important;height:auto!important;aspect-ratio:1.5!important;object-fit:cover!important}
+@media(max-width:980px){.blu-homepage-v4 .v4-journal .tpl-blog-holder.apply-isotope{grid-template-columns:repeat(2,minmax(0,1fr))!important}.blu-homepage-v4 .v4-businesses .wdt-flex-banner-options{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:600px){.blu-homepage-v4 .v4-journal .tpl-blog-holder.apply-isotope,.blu-homepage-v4 .v4-businesses .wdt-flex-banner-options{grid-template-columns:1fr!important}.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option{min-height:310px!important}}
+
+
+/* Last legacy sizing layers: flex-banner, isotope wrapper and inherited label backgrounds. */
+.blu-homepage-v4 .v4-journal .v4-block:has(.wdt-posts-list-wrapper){grid-column:1/-1!important;width:100%!important;max-width:none!important}
+.blu-homepage-v4 .v4-journal :is(.wdt-posts-list-wrapper,.tpl-blog-holder){max-width:none!important;width:100%!important;min-width:0!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:26px!important;clear:both!important}
+.blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper{display:block!important}
+.blu-homepage-v4 .v4-journal .tpl-blog-holder>.wdt-post-entry{grid-column:auto!important;width:100%!important;min-width:0!important;max-width:none!important}
+.blu-homepage-v4 .v4-journal .wdt-post-entry :is(.entry-details,.entry-thumb,.entry-title){width:100%!important;max-width:none!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option{background-image:var(--optionBackground)!important;background-size:cover!important;background-position:center!important;background-color:#accdc4!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-label :is(div,span,p){background:transparent!important;border:0!important;color:white!important;box-shadow:none!important;clip-path:none!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-title{min-height:0!important;max-height:none!important;opacity:1!important;visibility:visible!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-label{display:flex!important;flex-direction:column!important;align-items:start!important;gap:6px!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:before,.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:after{display:none!important}
+@media(max-width:900px){.blu-homepage-v4 .v4-journal .tpl-blog-holder{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:600px){.blu-homepage-v4 .v4-journal .tpl-blog-holder{grid-template-columns:1fr!important}}
