@@ -1,0 +1,160 @@
+{
+  "testedAt": "2026-10-08T09:49:35.155Z",
+  "scope": "Static source vs built HTML. Whitespace normalized only. Does not certify image text, visual visibility or backend submissions.",
+  "results": [
+    {
+      "path": "/",
+      "capturedAt": "2026-10-08T09:33:45.285Z",
+      "sourceHash": "1f1b421eaecee73389a070bb369999e17f2026488c4fe8b68e49b91465f808b9",
+      "textNodes": 175,
+      "links": 124,
+      "forms": 1,
+      "numbers": 41,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/project-goals/",
+      "capturedAt": "2026-10-08T09:33:46.606Z",
+      "sourceHash": "cfd2bd6e1f9e74f2a9c90eb2a014351facca020184d04061fb948a39ea9ae385",
+      "textNodes": 145,
+      "links": 100,
+      "forms": 1,
+      "numbers": 28,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/underlying-assets/",
+      "capturedAt": "2026-10-08T09:33:48.032Z",
+      "sourceHash": "48aed42f596a21c0c493e2bce7ace31a7d753fa2f0f3083b8b65b3ae8bba186d",
+      "textNodes": 112,
+      "links": 115,
+      "forms": 1,
+      "numbers": 22,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/whitepaper/",
+      "capturedAt": "2026-10-08T09:33:49.188Z",
+      "sourceHash": "c45aa1e4cdc36465258d76930abc46985cb848d62d664e7a62a3ac04def8d911",
+      "textNodes": 125,
+      "links": 102,
+      "forms": 1,
+      "numbers": 22,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/category/article/",
+      "capturedAt": "2026-10-08T09:33:50.454Z",
+      "sourceHash": "23dc304f7efc6d1ae0437daa167087b2a0b8fceefb810e2ce5a390b62509ec94",
+      "textNodes": 136,
+      "links": 117,
+      "forms": 1,
+      "numbers": 34,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/about-us/",
+      "capturedAt": "2026-10-08T09:33:51.873Z",
+      "sourceHash": "d0397963589b0f96b030b35f1380967c0ea3fdc67d84d37de8ecc4f6c4fdc67e",
+      "textNodes": 134,
+      "links": 104,
+      "forms": 2,
+      "numbers": 32,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/faq/",
+      "capturedAt": "2026-10-08T09:33:53.055Z",
+      "sourceHash": "b37fc857f511af6e4d78c5b1899f92bfb4107358c47c79ea7e23202b152b64ce",
+      "textNodes": 158,
+      "links": 98,
+      "forms": 1,
+      "numbers": 36,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/en/main-en/",
+      "capturedAt": "2026-10-08T09:33:54.447Z",
+      "sourceHash": "520363ef5fbc14626f4e0d98cfc721c04b668a4d4f5c403771a481a8dfeb24e0",
+      "textNodes": 166,
+      "links": 119,
+      "forms": 1,
+      "numbers": 41,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/en/project-goals-en/",
+      "capturedAt": "2026-10-08T09:33:55.607Z",
+      "sourceHash": "606c27b85a10c26f1190b99ca3aed4c1a7d80b7638d79214c6bed262f86b013e",
+      "textNodes": 136,
+      "links": 98,
+      "forms": 1,
+      "numbers": 28,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/en/underlying-assets-en/",
+      "capturedAt": "2026-10-08T09:33:56.836Z",
+      "sourceHash": "ce89d4db24cbe485010349733c71016080db35d4b931522bce86c54961e9bc5a",
+      "textNodes": 111,
+      "links": 114,
+      "forms": 1,
+      "numbers": 22,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/en/whitepaper-en/",
+      "capturedAt": "2026-10-08T09:33:57.931Z",
+      "sourceHash": "f3d57dbe1334b17d01d548fbe48b9a7bfbe03861a40a7928fbf1cfe4d1676792",
+      "textNodes": 120,
+      "links": 99,
+      "forms": 1,
+      "numbers": 22,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/en/category/article-en/",
+      "capturedAt": "2026-10-08T09:33:59.017Z",
+      "sourceHash": "e4a786a078e8aa944556779c19e8bf99ba5e8ba98884b38eb7847d50c4bc4653",
+      "textNodes": 131,
+      "links": 113,
+      "forms": 1,
+      "numbers": 32,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/en/about-us-en/",
+      "capturedAt": "2026-10-08T09:34:00.176Z",
+      "sourceHash": "ba77737665e0a7681db60a06bc1f50463791eb4cef7b3c29a4c944897924b56c",
+      "textNodes": 132,
+      "links": 103,
+      "forms": 2,
+      "numbers": 32,
+      "pass": true,
+      "differences": []
+    },
+    {
+      "path": "/en/faq-en/",
+      "capturedAt": "2026-10-08T09:34:01.353Z",
+      "sourceHash": "057e735f44d313906ca5e2043723a0e5a22f06ce6df1f92e933f47ede5281974",
+      "textNodes": 150,
+      "links": 97,
+      "forms": 1,
+      "numbers": 36,
+      "pass": true,
+      "differences": []
+    }
+  ]
+}

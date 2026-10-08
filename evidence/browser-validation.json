@@ -1,0 +1,286 @@
+{
+  "testedAt": "2026-10-08T09:51:13.878Z",
+  "results": [
+    {
+      "path": "/",
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 7829,
+        "title": "Blu Green Token | Investment Token Carbon Credit Thailand",
+        "images": [
+          "http://127.0.0.1:4173/assets/ca64cc63fe061adf.jpg",
+          "http://127.0.0.1:4173/assets/3841799a4c92afb1.jpg",
+          "http://127.0.0.1:4173/assets/c2cd89165a45bb09.jpg",
+          "http://127.0.0.1:4173/assets/4e57b60bf525ce61.jpg",
+          "http://127.0.0.1:4173/assets/32a7af76a4771cdf.jpg",
+          "http://127.0.0.1:4173/assets/ddf91ef84c2eab99.jpg"
+        ],
+        "visibleMainText": 4611,
+        "kanit": true,
+        "coin": true
+      },
+      "errors": [],
+      "failed": [
+        {
+          "url": "https://wdtgoat.wpengine.com/wp-content/uploads/2024/03/slider-1-parallax-image-big.png",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://blufinance.co/wp-admin/admin-ajax.php",
+          "error": "net::ERR_FAILED"
+        }
+      ],
+      "accordion": null
+    },
+    {
+      "path": "/project-goals/",
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 4205,
+        "title": "วัตถุประสงค์โครงการ - Blu Green Token",
+        "images": [],
+        "visibleMainText": 2223,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/underlying-assets/",
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 3109,
+        "title": "โครงการอ้างอิง",
+        "images": [],
+        "visibleMainText": 0,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/whitepaper/",
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 3110,
+        "title": "Whitepaper - Blu Green Token",
+        "images": [],
+        "visibleMainText": 212,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/category/article/",
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 3710,
+        "title": "บทความ Archives - Blu Green Token",
+        "images": [],
+        "visibleMainText": 496,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/about-us/",
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 4336,
+        "title": "เกี่ยวกับเรา - Blu Green Token",
+        "images": [],
+        "visibleMainText": 1461,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/faq/",
+      "width": 1440,
+      "metrics": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "height": 2705,
+        "title": "คำถามที่พบบ่อย (FAQ)",
+        "images": [],
+        "visibleMainText": 616,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": {
+        "class": "wdt-accordion-toggle-title-holder ui-accordion-header ui-corner-top ui-state-default ui-accordion-header-active ui-state-active ui-state-hover ui-state-focus",
+        "parent": "wdt-accordion-toggle-wrapper"
+      }
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 10845,
+        "title": "Blu Green Token | Investment Token Carbon Credit Thailand",
+        "images": [
+          "http://127.0.0.1:4173/assets/ca64cc63fe061adf.jpg",
+          "http://127.0.0.1:4173/assets/3841799a4c92afb1.jpg",
+          "http://127.0.0.1:4173/assets/c2cd89165a45bb09.jpg",
+          "http://127.0.0.1:4173/assets/4e57b60bf525ce61.jpg",
+          "http://127.0.0.1:4173/assets/32a7af76a4771cdf.jpg",
+          "http://127.0.0.1:4173/assets/ddf91ef84c2eab99.jpg"
+        ],
+        "visibleMainText": 4611,
+        "kanit": true,
+        "coin": true
+      },
+      "errors": [],
+      "failed": [
+        {
+          "url": "https://wdtgoat.wpengine.com/wp-content/uploads/2024/03/slider-1-parallax-image-big.png",
+          "error": "net::ERR_BLOCKED_BY_ORB"
+        },
+        {
+          "url": "https://blufinance.co/wp-admin/admin-ajax.php",
+          "error": "net::ERR_FAILED"
+        }
+      ],
+      "accordion": null
+    },
+    {
+      "path": "/project-goals/",
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 5172,
+        "title": "วัตถุประสงค์โครงการ - Blu Green Token",
+        "images": [],
+        "visibleMainText": 2223,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/underlying-assets/",
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 2091,
+        "title": "โครงการอ้างอิง",
+        "images": [],
+        "visibleMainText": 0,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/whitepaper/",
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 2364,
+        "title": "Whitepaper - Blu Green Token",
+        "images": [],
+        "visibleMainText": 212,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/category/article/",
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 4194,
+        "title": "บทความ Archives - Blu Green Token",
+        "images": [],
+        "visibleMainText": 496,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/about-us/",
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 3288,
+        "title": "เกี่ยวกับเรา - Blu Green Token",
+        "images": [],
+        "visibleMainText": 1461,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": null
+    },
+    {
+      "path": "/faq/",
+      "width": 390,
+      "metrics": {
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 2872,
+        "title": "คำถามที่พบบ่อย (FAQ)",
+        "images": [],
+        "visibleMainText": 616,
+        "kanit": true,
+        "coin": false
+      },
+      "errors": [],
+      "failed": [],
+      "accordion": {
+        "class": "wdt-accordion-toggle-title-holder ui-accordion-header ui-corner-top ui-state-default ui-accordion-header-active ui-state-active ui-state-hover ui-state-focus",
+        "parent": "wdt-accordion-toggle-wrapper"
+      }
+    }
+  ],
+  "reducedMotion": {
+    "height": 633,
+    "handDisplay": "none"
+  },
+  "submissions": "No live form was submitted."
+}
