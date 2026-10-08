@@ -211,3 +211,17 @@ body.blu-homepage-v4{--night:#171C8F;--electric:#097EF6;--mint:#00FFAC;--cloud:#
 .blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:before,.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:after{display:none!important}
 @media(max-width:900px){.blu-homepage-v4 .v4-journal .tpl-blog-holder{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:600px){.blu-homepage-v4 .v4-journal .tpl-blog-holder{grid-template-columns:1fr!important}}
+
+
+/* Ground all four business backgrounds in assets archived from the REAL source site. */
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:nth-child(1){background-image:linear-gradient(180deg,transparent 15%,rgba(10,38,57,.76) 100%),url("../assets/d4018c0878c4838a.jpg")!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:nth-child(2){background-image:linear-gradient(180deg,transparent 15%,rgba(10,38,57,.76) 100%),url("../assets/979aa00728b4144d.jpg")!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:nth-child(3){background-image:linear-gradient(180deg,transparent 15%,rgba(10,38,57,.76) 100%),url("../assets/0086f4be8817ffad.jpg")!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-option:nth-child(4){background-image:linear-gradient(180deg,transparent 15%,rgba(10,38,57,.76) 100%),url("../assets/488d6a3e0b1ca81d.jpg")!important}
+.blu-homepage-v4 .v4-businesses .wdt-flex-banner-label,.blu-homepage-v4 .v4-businesses .wdt-flex-banner-title,.blu-homepage-v4 .v4-businesses .wdt-flex-banner-title *{background:transparent!important;border:none!important;box-shadow:none!important;clip-path:none!important;color:white!important;opacity:1!important;visibility:visible!important}
+.blu-homepage-v4 .v4-businesses :is(.wdt-flex-banner-label,.wdt-flex-banner-title,.wdt-flex-banner-info):before,
+.blu-homepage-v4 .v4-businesses :is(.wdt-flex-banner-label,.wdt-flex-banner-title,.wdt-flex-banner-info):after{display:none!important;content:none!important}
+.blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper{display:block!important;grid-template-columns:none!important;width:100%!important}
+.blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper>.tpl-blog-holder{width:100%!important;max-width:none!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important}
+@media(max-width:960px){.blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper>.tpl-blog-holder{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:600px){.blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper>.tpl-blog-holder{grid-template-columns:1fr!important}}
