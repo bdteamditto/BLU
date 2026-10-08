@@ -1,5 +1,5 @@
 {
-  "testedAt": "2026-10-08T09:49:35.155Z",
+  "testedAt": "2026-10-08T09:57:53.754Z",
   "scope": "Static source vs built HTML. Whitespace normalized only. Does not certify image text, visual visibility or backend submissions.",
   "results": [
     {

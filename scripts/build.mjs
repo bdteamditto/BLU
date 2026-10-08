@@ -14,7 +14,7 @@ for(const p of m.pages){const original=await fs.readFile(`evidence/source/${p.ke
  $('[srcset],[data-src],[data-srcset]').each((_,el)=>{for(const a of ['srcset','data-src','data-srcset']){const v=$(el).attr(a);if(!v)continue;$(el).attr(a,v.split(',').map(s=>{const bits=s.trim().split(/\s+/);try{const file=m.assets[new URL(bits[0],p.url).href];if(file)bits[0]=base+file;}catch{}return bits.join(' ');}).join(', '));}});
  $('[style],[data-settings]').each((_,el)=>{for(const a of ['style','data-settings']){let v=$(el).attr(a);if(!v)continue;for(const[u,file]of Object.entries(m.assets)){if(file){v=v.replaceAll(u,base+file).replaceAll(u.replaceAll('/','\\/'),(base+file).replaceAll('/','\\/'));}}$(el).attr(a,v);}});
  // Keep canonical CTA hrefs byte-for-byte; navigation interception is presentation-only.
- $('a[href]').each((_,el)=>{const href=$(el).attr('href');try{const u=new URL(href,p.url);if(u.origin===m.origin&&m.pages.some(x=>x.path===u.pathname))$(el).attr('data-preview-route',base+u.pathname.slice(1)+u.search+u.hash);}catch{}});
+ $('a[href]').each((_,el)=>{const href=$(el).attr('href');if(!href||href.startsWith('#'))return;try{const u=new URL(href,p.url),route=u.pathname.endsWith('/')?u.pathname:u.pathname+'/';if(u.origin===m.origin&&m.pages.some(x=>x.path===route))$(el).attr('data-preview-route',base+route.slice(1)+u.search+u.hash);}catch{}});
  $('body').addClass('blu-redesign').attr('data-preview-base',base);
  $('meta[name="robots"]').attr('content','noindex, nofollow');
  $('head').append(`<link rel="stylesheet" href="${base}src/design.css">`);
