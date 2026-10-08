@@ -18,7 +18,7 @@ body.blu-homepage-v4{--night:#171C8F;--electric:#097EF6;--mint:#00FFAC;--cloud:#
 .v4-scene-art{position:absolute;inset:0;z-index:-1;pointer-events:none}
 /* Opening: generously spaced cinematic landscape with magazine typography */
 .v4-opening{min-height:850px;display:flex;align-items:center;background:linear-gradient(100deg,#e7f5fb 0%,#e5f8f4 50%,#d6f0e7 100%);padding-top:115px;padding-bottom:130px}
-.v4-opening .v4-scene-art{background:linear-gradient(90deg,#eefafd 3%,#e9f8f8ec 35%,#e3f5f8aa 62%,#e0f5ec55 100%),url("./assets/67679a726f66a29c.jpg") center right/cover no-repeat;opacity:.86}
+.v4-opening .v4-scene-art{background:linear-gradient(90deg,#eefafd 3%,#e9f8f8ec 35%,#e3f5f8aa 62%,#e0f5ec55 100%),url("../assets/67679a726f66a29c.jpg") center right/cover no-repeat;opacity:.86}
 .v4-opening:before{content:"BLU";position:absolute;right:-.025em;bottom:-.26em;font-weight:700;font-size:clamp(280px,38vw,610px);letter-spacing:-.1em;line-height:1;color:#171c8f0d;pointer-events:none}
 .v4-opening .v4-content{width:100%;align-items:center}
 .v4-opening .v4-block:nth-child(1){grid-column:1/-1;max-width:650px}
