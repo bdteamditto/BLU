@@ -23,6 +23,23 @@ for(const p of m.pages){const original=await fs.readFile(`evidence/source/${p.ke
  if(src.includes('850c215a17fff2d1'))$(el).before('<script>window.$=window.jQuery;</script>');});
  $('#header img').filter((_,el)=>/Blu-Green-Token_Logo|Logo-Bul/.test($(el).attr('src')||'')||/c421d15d|aac7cc37/.test($(el).attr('src')||'')).attr('src',base+'brand/logo.svg').removeAttr('srcset');
  $('#header img').addClass('blu-brand-mark').attr('src',base+'brand/logo.svg').removeAttr('srcset');
+ // Recompose original homepage section nodes into a completely new editorial scene grid.
+ // Move existing DOM nodes rather than copying/editing content; text, anchor targets,
+ // warnings, image-embedded content and the original content order remain untouched.
+ if(p.path==='/'||p.path==='/en/main-en/'){
+   const originalSections=$('#main .elementor-3292 > section.elementor-top-section').toArray();
+   const names=['opening','introduction','figures','purpose','purpose-alternate','businesses','journal'];
+   const layout=$('<div class="blu-homepage-layout" data-visual-rebuild="true"></div>');
+   originalSections.forEach((el,i)=>{
+     const scene=$('<div class="blu-scene blu-scene-'+(names[i]||'extra')+'"></div>');
+     if(i===0||i===3||i===5)scene.append('<div class="blu-scene-art" aria-hidden="true"></div>');
+     scene.append($(el).detach());
+     layout.append(scene);
+   });
+   $('#main .elementor-3292').append(layout);
+   $('body').addClass('blu-homepage-v3');
+   $('head').append('<link rel="stylesheet" href="'+base+'src/homepage.css">');
+ }
  $('#main').attr('tabindex','-1');
  if(p.path==='/'||p.path==='/en/main-en/')$('#main').before('<div id="blu-intro-root" aria-hidden="true"></div>');
  $('#footer').prepend('<div id="blu-ecosystem-root" aria-hidden="true"></div>');
