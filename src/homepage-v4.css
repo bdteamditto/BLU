@@ -225,3 +225,10 @@ body.blu-homepage-v4{--night:#171C8F;--electric:#097EF6;--mint:#00FFAC;--cloud:#
 .blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper>.tpl-blog-holder{width:100%!important;max-width:none!important;display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important}
 @media(max-width:960px){.blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper>.tpl-blog-holder{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:600px){.blu-homepage-v4 .v4-journal .wdt-posts-list-wrapper>.tpl-blog-holder{grid-template-columns:1fr!important}}
+
+
+/* Beat the earlier grid selector, which accidentally put the blog's SINGLE wrapper in a 3-column slot. */
+.blu-homepage-v4 #main .v4-journal .v4-block:nth-child(2) > .wdt-posts-list-wrapper{display:block!important;grid-template-columns:none!important;width:100%!important}
+.blu-homepage-v4 #main .v4-journal .v4-block:nth-child(2) > .wdt-posts-list-wrapper > .tpl-blog-holder{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;width:100%!important;max-width:none!important}
+@media(max-width:980px){.blu-homepage-v4 #main .v4-journal .v4-block:nth-child(2) > .wdt-posts-list-wrapper > .tpl-blog-holder{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:600px){.blu-homepage-v4 #main .v4-journal .v4-block:nth-child(2) > .wdt-posts-list-wrapper > .tpl-blog-holder{grid-template-columns:1fr!important}}
