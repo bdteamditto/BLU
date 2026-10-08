@@ -232,3 +232,5 @@ body.blu-homepage-v4{--night:#171C8F;--electric:#097EF6;--mint:#00FFAC;--cloud:#
 .blu-homepage-v4 #main .v4-journal .v4-block:nth-child(2) > .wdt-posts-list-wrapper > .tpl-blog-holder{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;width:100%!important;max-width:none!important}
 @media(max-width:980px){.blu-homepage-v4 #main .v4-journal .v4-block:nth-child(2) > .wdt-posts-list-wrapper > .tpl-blog-holder{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:600px){.blu-homepage-v4 #main .v4-journal .v4-block:nth-child(2) > .wdt-posts-list-wrapper > .tpl-blog-holder{grid-template-columns:1fr!important}}
+
+.blu-homepage-v4 #main .v4-journal .tpl-blog-holder .grid-sizer{display:none!important;position:absolute!important;width:0!important;height:0!important;overflow:hidden!important}
