@@ -1,0 +1,5 @@
+node_modules/
+dist/
+/home.html
+evidence/screenshots/
+.DS_Store

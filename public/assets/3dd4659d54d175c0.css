@@ -1,0 +1,8 @@
+.wdt-sticky-column:not(.wdt-sticky-css) { align-self: flex-start; }
+.wdt-overflow-hidden { overflow: hidden; }
+
+
+/* CSS Sticky Column */
+
+.elementor-column:has(~ .wdt-sticky-column.wdt-sticky-css) { position: relative; z-index: 1; }
+.wdt-sticky-column.wdt-sticky-css { align-self: flex-start; position: sticky; top: calc(var(--header-height) + 20px); z-index: 0; }

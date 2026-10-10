@@ -1,0 +1,47 @@
+/* BLU homepage V3: brand-led redesign of presentation ONLY.
+   All text and interactive source DOM nodes remain unedited and in original order. */
+body.blu-homepage-v3{background:#f1f8fa}
+.blu-homepage-v3 #main{background:#f5fbfc;padding:0}
+.blu-homepage-v3 #main>.container{max-width:none!important;padding:0!important;margin:0!important}
+.blu-homepage-v3 #main .wdt-elementor-container-fluid{max-width:none!important;padding:0!important}
+.blu-homepage-layout{isolation:isolate;display:flex;flex-direction:column;overflow:clip}
+.blu-homepage-layout>.blu-scene{position:relative;isolation:isolate;overflow:hidden;padding:clamp(64px,7vw,124px) max(5.5vw,calc((100vw - 1370px)/2));min-width:0}
+.blu-homepage-layout>.blu-scene>.elementor-section{position:relative;z-index:2;max-width:1370px;margin-inline:auto!important;padding:0!important;min-height:0!important;width:100%!important;background:none!important;background-color:transparent!important;box-shadow:none!important;border:0!important;overflow:visible!important}
+.blu-homepage-layout>.blu-scene>.elementor-section:before,.blu-homepage-layout>.blu-scene>.elementor-section:after{display:none!important}
+.blu-homepage-layout>.blu-scene .elementor-container{max-width:100%!important;gap:clamp(18px,3.4vw,54px);align-items:center}
+.blu-homepage-layout>.blu-scene .elementor-column-gap-default>.elementor-column>.elementor-element-populated{padding:0!important}
+.blu-homepage-layout>.blu-scene :is(.elementor-widget-heading,.elementor-widget-wdt-heading) :is(.elementor-heading-title,.wdt-heading-title-wrapper){letter-spacing:-.035em!important;line-height:1.16!important;text-wrap:balance}
+.blu-homepage-layout>.blu-scene :is(.wdt-button-holder a,.elementor-button){transition:all .24s ease!important}
+.blu-homepage-layout>.blu-scene .elementor-widget-text-editor p{line-height:1.85!important}
+.blu-homepage-layout .blu-scene-art{position:absolute;inset:0;z-index:0;pointer-events:none;background-size:cover;background-position:center;opacity:.55}
+.blu-homepage-layout>.blu-scene-opening{background:linear-gradient(115deg,#edf8fd 0%,#f8fdff 44%,#d6efe8 100%);min-height:675px;padding-block:clamp(64px,8vw,135px);border-radius:0 0 54px 54px}
+.blu-scene-opening .blu-scene-art{background-image:linear-gradient(90deg,#edf8fef2 0%,#edf8fdb8 42%,#e4f9e55a 85%),url("/BLU/assets/67679a726f66a29c.jpg");background-position:center right;opacity:.8}
+.blu-scene-opening>.elementor-section>.elementor-container{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)!important;align-items:center;min-height:450px}
+.blu-scene-opening>.elementor-section .elementor-column{width:auto!important;max-width:none!important;min-width:0}
+.blu-scene-opening>.elementor-section .elementor-column:first-child{grid-column:1}
+.blu-scene-opening>.elementor-section .elementor-column:nth-child(2){grid-column:1}
+.blu-scene-opening>.elementor-section .elementor-column:nth-child(3){grid-column:2;grid-row:1/span 2}
+.blu-scene-opening :is(.elementor-heading-title,.wdt-heading-title-wrapper){color:#171c8f!important}
+.blu-homepage-layout>.blu-scene-introduction{background:#f7fcff;padding-top:100px;padding-bottom:70px}
+.blu-scene-introduction>.elementor-section>.elementor-container{display:grid!important;grid-template-columns:1fr 1fr!important}
+.blu-scene-introduction>.elementor-section>.elementor-container>.elementor-column{width:auto!important}
+.blu-homepage-layout>.blu-scene-figures{background:linear-gradient(170deg,#f7fcff 0%,#eaf6fb 100%);padding-top:60px;padding-bottom:112px}
+.blu-scene-figures>.elementor-section{background:rgba(255,255,255,.92)!important;padding:clamp(24px,3.4vw,52px)!important;border-radius:36px!important;box-shadow:0 32px 90px rgba(29,76,129,.09)!important;border:1px solid #d7e6ee!important}
+.blu-scene-figures .wdt-image-box-holder,.blu-scene-figures .wdt-content-item{box-shadow:none!important;background:transparent!important}
+.blu-homepage-layout>.blu-scene-purpose{background:linear-gradient(155deg,#eaf8f8 0%,#fff 35%,#f5faf4 100%);padding-block:125px}
+.blu-scene-purpose .blu-scene-art{right:45%;opacity:.21;background:radial-gradient(ellipse at 20% 40%,#79d1b4 2%,transparent 66%),repeating-radial-gradient(ellipse at 10% 50%,transparent 0 38px,#a5d9cd55 39px 40px,transparent 41px 70px)}
+.blu-scene-purpose>.elementor-section>.elementor-container{display:grid!important;grid-template-columns:1fr 1fr!important;align-items:start;gap:5vw}
+.blu-scene-purpose>.elementor-section .elementor-column{width:auto!important;min-width:0}
+.blu-homepage-layout>.blu-scene-purpose-alternate{background:#f4faf9;padding-block:80px}
+.blu-homepage-layout>.blu-scene-businesses{background:linear-gradient(180deg,#eff8f9,#fff);padding-top:135px;padding-bottom:135px}
+.blu-scene-businesses .blu-scene-art{opacity:.13;background-image:radial-gradient(circle at 85% 15%,#00ffac,transparent 30%),radial-gradient(circle at 20% 80%,#097ef6,transparent 30%)}
+.blu-scene-businesses :is(.wdt-image-box-holder,.wdt-content-item){border-radius:26px!important;overflow:hidden!important;box-shadow:0 20px 50px rgba(23,28,143,.08)!important}
+.blu-homepage-layout>.blu-scene-journal{background:#fff;padding-top:105px;padding-bottom:140px}
+.blu-scene-journal .wdt-post-entry{border:0!important;box-shadow:0 18px 55px rgba(23,28,143,.075)!important;border-radius:24px!important}
+.blu-scene-journal .wdt-post-entry img{aspect-ratio:1.5;object-fit:cover}
+.blu-homepage-v3 #main #wdt-image-box-778559f .wdt-column-wrapper{gap:24px!important}
+.blu-homepage-v3 #main #wdt-image-box-778559f .wdt-content-item{background:rgba(255,255,255,.95);border-radius:25px!important;box-shadow:0 15px 38px rgba(23,28,143,.075)!important}
+.blu-homepage-v3 #footer{margin-top:0!important}
+@media(max-width:900px){.blu-homepage-layout>.blu-scene{padding:76px 30px}.blu-scene-opening>.elementor-section>.elementor-container{display:block!important}.blu-scene-introduction>.elementor-section>.elementor-container,.blu-scene-purpose>.elementor-section>.elementor-container{display:block!important}.blu-scene-opening .elementor-column,.blu-scene-introduction .elementor-column,.blu-scene-purpose .elementor-column{width:100%!important}.blu-homepage-layout>.blu-scene-opening{min-height:0}}
+@media(max-width:600px){.blu-homepage-layout>.blu-scene{padding:60px 20px}.blu-scene-opening .blu-scene-art{opacity:.35}.blu-homepage-layout>.blu-scene-opening{border-radius:0 0 30px 30px}.blu-scene-figures>.elementor-section{padding:18px!important;border-radius:22px!important}.blu-homepage-layout>.blu-scene-purpose,.blu-homepage-layout>.blu-scene-businesses{padding-block:75px}}
+@media(prefers-reduced-motion:reduce){.blu-homepage-layout>.blu-scene *{animation-duration:0s!important;transition-duration:0s!important}}
