@@ -33,7 +33,7 @@ jobs:
       - name: Checkout V7 review source
         uses: actions/checkout@v4
         with:
-          ref: 746305a4fde984b1695fa36a9d3a8124c420772a
+          ref: 6804abad973077c52b499cb8630c53b0e4499fb1
           path: v7-source
       - name: Build and validate V7
         run: |
@@ -55,4 +55,5 @@ jobs:
       - name: Deploy isolated preview
         id: deployment
         uses: actions/deploy-pages@v4
+
 
