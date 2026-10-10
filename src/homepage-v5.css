@@ -3,12 +3,12 @@
 .blu-homepage-v5 #blu-intro-root{position:relative;z-index:2;clear:both}
 .blu-homepage-v5 .v5-stage{top:0!important}
 .blu-homepage-v5 #header .menu-trigger i,.blu-homepage-v5 #header .menu-trigger i:before,.blu-homepage-v5 #header .menu-trigger i:after{background:#171c8f!important}
-@media(max-width:700px){.blu-homepage-v5 #header .elementor-element-4f51c49{position:absolute!important;right:25px!important;top:46px!important;width:44px!important}.blu-homepage-v5 #header .menu-trigger{height:44px!important;display:flex!important;align-items:center}}
+@media(max-width:700px){.blu-homepage-v5 #header .elementor-element-4f51c49{position:absolute!important;right:25px!important;top:50%!important;transform:translateY(-50%);width:44px!important}.blu-homepage-v5 #header .menu-trigger{height:44px!important;display:flex!important;align-items:center}}
 .blu-homepage-v5 #header{position:absolute!important;inset:0 0 auto!important;background:transparent!important;border:0!important;z-index:20!important}
 .blu-homepage-v5 #header .wdt-header-tpl{max-width:1320px;margin:auto;background:#ffffffed!important;border-radius:0 0 24px 24px;backdrop-filter:blur(18px)}
-.blu-homepage-v5 #header img.blu-brand-mark{width:145px!important;height:145px!important;object-fit:contain}
+.blu-homepage-v5 #header img.blu-brand-mark{width:110px!important;height:110px!important;object-fit:contain}
 .blu-homepage-v5 #header .elementor-top-section{padding-block:0!important;min-height:0!important}
-.blu-homepage-v5 #header .elementor-widget-image{margin-block:-28px!important}
+.blu-homepage-v5 #header .elementor-widget-image{margin-block:-18px!important}
 .blu-homepage-v5 #header .elementor-widget-wrap{align-content:center!important}
 .blu-homepage-v5 #header .wdt-icon-box-holder .wdt-content-title h5{white-space:nowrap!important;font-size:14px!important}
 .v5-landing{height:205svh;position:relative;background:#f0f6f7}
@@ -45,5 +45,6 @@
 .v5-ripples{position:absolute;inset:35% 0 0;background:repeating-linear-gradient(177deg,transparent 0 31px,#ffffff15 32px 33px,transparent 34px 72px);animation:v5-tide 9s ease-in-out infinite alternate;mix-blend-mode:screen}
 @keyframes v5-claw{0%,70%,100%{background-position:0 0}71%,92%{background-position:100% 0}}
 @keyframes v5-walk{to{transform:translateX(55px)}}@keyframes v5-tide{to{transform:translateY(6px);opacity:.4}}
-@media(max-width:700px){.v5-stage{min-height:760px}.v5-copy{top:20%;left:6%;width:88%}.v5-copy .v4-block:nth-child(2) :is(h1,h2,h3,h4,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:40px!important;white-space:normal}.v5-copy .v4-block:nth-child(3) :is(h1,h2,h3,h4,p,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:19px!important;line-height:1.55!important}.v5-copy .v4-block:first-child{top:100%;margin-top:14px!important}.v5-hand{width:75vw;right:-13%;top:23%}.v5-landscape{background-position:62% center}.v5-lettering{top:12%;left:8%;font-size:48vw}.v5-coin-shadow{top:77%;right:18%;width:64%}.v5-scroll{bottom:5%}.blu-homepage-v5 .blu-coin-fallback{left:50%;top:68%;width:70vw}.blu-homepage-v5 .v4-opening{padding:40px 23px!important}.blu-homepage-v5 .v4-scene:not(.v4-opening){padding:55px 23px}.v5-crab{width:90px;height:90px}.v5-crab-4{display:none}.blu-homepage-v5 #header img.blu-brand-mark{width:130px!important;height:130px!important}}
+@media(max-width:700px){.v5-stage{min-height:760px}.v5-copy{top:20%;left:6%;width:88%}.v5-copy .v4-block:nth-child(2) :is(h1,h2,h3,h4,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:40px!important;white-space:normal}.v5-copy .v4-block:nth-child(3) :is(h1,h2,h3,h4,p,.wdt-heading-title-wrapper,.elementor-heading-title){font-size:19px!important;line-height:1.55!important}.v5-copy .v4-block:first-child{top:100%;margin-top:14px!important}.v5-hand{width:75vw;right:-13%;top:23%}.v5-landscape{background-position:62% center}.v5-lettering{top:12%;left:8%;font-size:48vw}.v5-coin-shadow{top:77%;right:18%;width:64%}.v5-scroll{bottom:5%}.blu-homepage-v5 .blu-coin-fallback{left:50%;top:68%;width:70vw}.blu-homepage-v5 .v4-opening{padding:40px 23px!important}.blu-homepage-v5 .v4-scene:not(.v4-opening){padding:55px 23px}.v5-crab{width:90px;height:90px}.v5-crab-4{display:none}.blu-homepage-v5 #header img.blu-brand-mark{width:100px!important;height:100px!important}}
 @media(prefers-reduced-motion:reduce){.v5-landing{height:100svh;min-height:760px}.v5-stage{position:relative}.v5-hand{display:none}.v5-crab,.v5-ripples{animation:none}}
+

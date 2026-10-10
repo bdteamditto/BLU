@@ -14,6 +14,7 @@ export function WatercolorLanding(){const root=useRef(),stage=useRef(),object=us
     .to(landscape.current,{y:-20,scale:1.035,duration:.9},0)
     .to(stage.current,{opacity:0,duration:.1},.9);
  },stage);return()=>{ctx.revert();root.current?.before(copy);};},[]);
- return <section ref={root} className="wc-landing"><div ref={stage} className="wc-stage"><div ref={landscape} className="wc-landscape" style={{backgroundImage:`url("${asset('art/watercolor-landscape-v6.png')}")`}} aria-hidden="true"/><div className="wc-lettering" aria-hidden="true">BLU</div><div ref={object} className="wc-hand-coin" aria-hidden="true"><img ref={coin} className="wc-blue-coin" src={asset('art/blue-coin-v7.png')} alt=""/><img ref={hand} className="wc-pickup-hand" src={asset('art/pinching-hand-v7.png')} alt=""/></div><div className="wc-scroll" aria-hidden="true">↓</div></div></section>;
+ return <section ref={root} className="wc-landing"><div ref={stage} className="wc-stage"><div ref={landscape} className="wc-landscape" style={{backgroundImage:`url("${asset('art/watercolor-landscape-v6.png')}")`}} aria-hidden="true"/><div ref={object} className="wc-hand-coin" aria-hidden="true"><img ref={coin} className="wc-blue-coin" src={asset('art/blue-coin-v7.png')} alt=""/><img ref={hand} className="wc-pickup-hand" src={asset('art/pinching-hand-v7.png')} alt=""/></div><div className="wc-scroll" aria-hidden="true">↓</div></div></section>;
 }
 export function WatercolorCoast(){return <div className="wc-coast" style={{backgroundImage:`url("${asset('art/watercolor-footer-v6.png')}")`}}><div className="wc-water"/>{[0,1,2,3,4].map(i=><div key={i} className={'wc-crab wc-crab-'+i} style={{backgroundImage:`url("${asset('art/watercolor-crab-v6.png')}")`}}/>)}</div>;}
+
