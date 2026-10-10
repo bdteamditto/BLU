@@ -1,0 +1,19 @@
+{
+  "url": "https://bdteamditto.github.io/BLU/v7/?v=7",
+  "status": 200,
+  "initial": {
+    "hand": "0",
+    "coinLoaded": true,
+    "handLoaded": true,
+    "overflow": false,
+    "title": "Blu Green Token | Investment Token Carbon Credit Thailand"
+  },
+  "grip": "1",
+  "next": {
+    "top": -63.609375,
+    "text": true
+  },
+  "failures": [],
+  "engine": "Chromium mobile emulation; physical iPhone Safari not tested",
+  "checkedAt": "2026-10-10T10:53:28.150Z"
+}
