@@ -29,6 +29,19 @@ jobs:
         with:
           name: content-validation
           path: evidence/content-validation.json
+      # Keep the current root preview and publish the separately reviewed V7 under /v7/.
+      - name: Checkout V7 review source
+        uses: actions/checkout@v4
+        with:
+          ref: 746305a4fde984b1695fa36a9d3a8124c420772a
+          path: v7-source
+      - name: Build and validate V7
+        run: |
+          pnpm --dir v7-source install --frozen-lockfile
+          pnpm --dir v7-source build
+          pnpm --dir v7-source validate
+          mkdir -p dist/v7
+          cp -R v7-source/dist/. dist/v7/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -42,3 +55,4 @@ jobs:
       - name: Deploy isolated preview
         id: deployment
         uses: actions/deploy-pages@v4
+
