@@ -25,7 +25,7 @@ for(const p of m.pages){const original=await fs.readFile(`evidence/source/${p.ke
  $('#header img').addClass('blu-brand-mark').attr('src',base+'brand/logo.svg').removeAttr('srcset');
  // VISUAL V4 — completely new layout tree, no Elementor section/column wrappers.
  // Every original content widget DOM node is MOVED, never rewritten or cloned.
- if(p.path==='/'||p.path==='/en/main-en/'){
+ if(p.path==='/'){
    const sections=$('#main .elementor-3292 > section.elementor-top-section').toArray();
    const names=['opening','introduction','figures','purpose','purpose-alternate','businesses','journal'];
    const layout=$('<div class="blu-home-v4" data-visual-rebuild="from-source-widgets"></div>');
@@ -57,9 +57,19 @@ for(const p of m.pages){const original=await fs.readFile(`evidence/source/${p.ke
    $('head').append('<link rel="stylesheet" href="'+base+'src/homepage-v4.css">');
  }
  $('#main').attr('tabindex','-1');
- if(p.path==='/'||p.path==='/en/main-en/')$('#main').before('<div id="blu-intro-root" aria-hidden="true"></div>');
+ if(p.path==='/'){
+   $('body').addClass('blu-homepage-v5').removeClass('wdt-fixed-footer-enabled');
+   $('#footer .elementor-widget-image img').first().attr('src',base+'brand/logo.svg').removeAttr('srcset');
+   const copy=$('<div id="blu-landing-copy" class="v5-copy"></div>');
+   $('.v4-opening .v4-content > .v4-block').slice(0,3).each((_,el)=>copy.append(el));
+   $('#main').before(copy).before('<div id="blu-intro-root"></div>');
+   $('head').append('<link rel="stylesheet" href="'+base+'src/homepage-v5.css">');
+   $('a[data-preview-route]').each((_,el)=>{if(($(el).attr('href')||'').includes('/en/'))$(el).removeAttr('data-preview-route');});
+ }
+ else if(p.path==='/en/main-en/')$('#main').before('<div id="blu-intro-root" aria-hidden="true"></div>');
  $('#footer').prepend('<div id="blu-ecosystem-root" aria-hidden="true"></div>');
  $('body').append(`<script type="module" src="${base}src/presentation.jsx"></script>`);
  const file=p.path==='/'?'index.html':p.path.slice(1)+'index.html';await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,$.html());
 }
 console.log('Built source HTML for',m.pages.length,'routes');
+

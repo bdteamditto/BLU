@@ -1,0 +1,26 @@
+{
+  "mode": "Built-in image_gen",
+  "generatedAt": "2026-10-10",
+  "assets": [
+    {
+      "key": "landscape",
+      "transparent_background": false,
+      "prompt": "Use case: illustration-story. Asset type: premium environmental investment website opening artwork, wide 16:9. Paint an exceptionally beautiful Thai mangrove lagoon in refined hand-painted watercolor and gouache on ivory cold-press paper, layered washes, botanical detail, artistic sophisticated editorial illustration, similar in spirit to illustrated nature landscapes in premium financial websites. Airy light ethereal ivory-white upper center and middle LEFT for real navy HTML text. Frame far left and right edges with delicately painted lush fresh mangrove foliage and recognizable arching aerial roots. Lower third luminous turquoise shallow water with watercolor reflections, a little rock and saplings at lower right; distant blue limestone mountains and soft clouds. Sunlit, light and fresh, mint/emerald green and sky blue with subtle indigo shadows and warm cream highlights. Beautiful layered composition, calm trustworthiness, not a children cartoon, not photorealism or 3D rendering. Entire sky softly fades into ivory paper near upper half; plant detail stays near edges and lower third. NO writing, logos, coins, hands, interface, numbers, watermark."
+    },
+    {
+      "key": "coin-hand",
+      "transparent_background": true,
+      "prompt": "Use case: illustration-story. Asset type: isolated premium watercolor website illustration, square canvas with genuine transparent alpha. A beautifully painted realistic adult RIGHT HAND reaches diagonally in from upper right, gently holding the TOP EDGE of a large elegant round investment token with index finger and thumb. Refined watercolor and gouache, ivory paper-like painted pigment texture INSIDE objects only, graceful anatomical fingers, natural short nails, warm peach skin and soft cool blue shadows, exceptionally tasteful high-end editorial illustration, neither a cartoon hand nor photorealistic 3D. The coin is FRONT-FACING a perfect round circular face centered exactly at 48% canvas width and 64% canvas height, diameter 60% of canvas width, thin visible rim on lower right gives understated depth. Coin ring is finely detailed pale champagne silver with subtle indigo and emerald botanical edging; its central face is empty warm pale ivory, absolutely blank so a real logo will be overlaid in HTML. Hand fingertips pinch only the upper rim; no fingers obscure central face. All of coin visible including bottom rim with clear margin. Wrist exits upper right canvas edge. Soft painterly shadows only inside the objects. NO letters, no B, no logos, no symbols, no writing, no background scenery, no watermark. Transparent background outside hand and coin."
+    },
+    {
+      "key": "footer",
+      "transparent_background": false,
+      "prompt": "Use case: illustration-story. Asset type: very wide 3:1 website footer watercolor landscape. Exceptionally beautiful refined hand-painted watercolor/gouache Thai mangrove tidal estuary on warm ivory paper, botanical detail and translucent soft pigment washes, premium sophisticated editorial illustration. Blue limestone mountains in distance with a light fresh cream sky; lush mangrove trees frame both edges, recognizable arching aerial roots near mudflat, turquoise and pale sky-blue water with soft watercolor ripples, small wet mud patches in foreground for separate animated fiddler crabs. Light fresh elegant colours ivory, sky blue, emerald/mint greenery, restrained indigo shadows, not gloomy, not a childish cartoon, not photorealistic or 3D. Leave central lower foreground relatively calm and unobstructed. NO animals, writing, logos, coins, people, UI, or watermark."
+    },
+    {
+      "key": "crab",
+      "transparent_background": true,
+      "prompt": "Use case: illustration-story. Asset type: two-frame watercolor sprite sheet, wide 2:1, two equal square cells with genuine transparent alpha. Same beautiful naturally proportioned male fiddler crab in each cell: orange/red-brown shell, visible small eyestalks, delicate anatomically plausible legs, a very prominent oversized warm orange/cream right claw. Refined hand-painted watercolor and gouache, premium editorial wildlife illustration on paper-like pigment INSIDE body only, cute and graceful but natural, not a cartoon mascot or photorealistic render. Left frame claw gently lowered; right frame identical body, same size and location and legs, large claw raised in a gentle show. Low eye-level slight three-quarter front view. Each frame centered with ample equal padding, all legs and claw visible. No scenery, no ground, no background paper outside objects, no text, no labels, no watermark. Transparent background."
+    }
+  ]
+}
